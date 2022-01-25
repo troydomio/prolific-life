@@ -1,0 +1,15 @@
+
+.header{
+    background-color: #06102f;
+    color: white;
+}
+.header img{
+    height: 400px;
+    width: 600px;
+}
+.title_image{
+    display: flex;
+}
+.call_action{
+    background-color: #1b1e61;
+}

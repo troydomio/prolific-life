@@ -4,7 +4,7 @@ import './Nav.css'
 const Nav = () => {
   return (
     <div className='nav'>
-    <div className='logo'><a href="/home"><img src=""/></a></div>
+    <div className='logo'><a href="/home"><img src=""/>PS</a></div>
     <a href="/home">Home</a>
     <a href="/about">About</a>
     <a href="/services">Services</a>
