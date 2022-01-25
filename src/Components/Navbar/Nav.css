@@ -1,0 +1,16 @@
+
+
+.nav{
+    display: flex;
+    background-color: #06102f;
+    width: 100vw;
+    height: 7vh;
+   
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.book_btn{
+    border:white 1px solid;
+}
