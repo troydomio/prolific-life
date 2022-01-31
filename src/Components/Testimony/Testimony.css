@@ -35,4 +35,22 @@
     height: 60px;
     font-size: 25px;
 }
+@media all and (max-width: 1180px){
+    .title{
+        font-size: 67px;
+        color: white;
+        margin-left: 8vh;
+        margin-top: 47%;
+        padding-bottom: 5%;
+    }
+    .card{
+        /* border: white 1px solid; */
+        width: 73vw;
+        font-size: 25px;
+    }
+    .card h3{
+        height: 140px;
+        font-size: 40px;
+    }
+}
 

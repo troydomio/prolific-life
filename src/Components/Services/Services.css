@@ -80,3 +80,31 @@
 .one, .two, .three, p{
     padding-left: 1%;
 }
+
+@media all and (max-width: 1180px){
+    .service h1{
+    font-size: 76px;
+    padding-left: 29%;
+    padding-top: 160%;
+    }
+    .one, .two, .three, .four, .five,.six{
+        width: 270vw;
+     }
+    .service_body{
+        display: flex;
+      overflow: scroll;
+        width: 270vw;
+           background-color: #06102f;
+           color:white;
+       }
+       .box{
+        width: 80vw;
+        height: 69vh; 
+        margin-left: 1%;
+    }
+    .box img{
+        width: 70vw;
+        height: 30vh;
+        border-radius: 4%; 
+    }
+}

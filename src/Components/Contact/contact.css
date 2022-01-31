@@ -8,9 +8,6 @@ body{
     background-color: #06102f;
     color: white;
     padding-left: 4%;
-    
-    /* border:1px white solid; */
-
 }
 .contact img{
     width: 665px;
@@ -45,4 +42,39 @@ body{
 .contactbtn{
     text-decoration: none;
     color: white;
+}
+@media all and (max-width: 1180px){
+    .headercontact{
+    font-size: 65px;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    margin-top: 1%;
+    line-height: 55px;
+    }
+    .contact p{
+        width: 106vw;
+        margin-right: 10%;
+        font-size: 40px;
+        line-height: 70px;
+        margin-left: 5%;
+    }
+    .contact{
+        display: flex;
+        width: 100vw;
+        padding-bottom: 8%;
+        padding-left: 4%;
+    }
+    .contact img{
+        width: 630px;
+        height: 600px;
+    }
+    .contactbtn{
+        width: 80vw;
+        height: 10vh;
+        margin-left: 2vw;
+        padding-bottom: 4%;
+        padding-left: 15%;
+        padding-top: 2%;
+        margin-top: 1vh;
+    }
 }

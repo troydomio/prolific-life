@@ -9,7 +9,6 @@ body{
     color: white;
     padding-left: 4%;
     padding-top: 10%;
-
 }
 .about img{
     margin-top: 11%;
@@ -29,4 +28,32 @@ body{
     padding-bottom: 7.4%;
     margin-top: 6%;
     line-height: 55px;
+}
+
+@media all and (max-width: 1180px){
+    .about{
+        display:block;
+        padding-top: 40%;
+    }
+    .about p{
+        width: 260vw;
+        line-height: 40px;
+        font-size: 30px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .about_text{
+    font-size: 85px;
+    padding-top: 5%;
+    padding-bottom: 7.4%;
+    margin-top: 6%;
+    line-height: 55px;
+    padding-left: 0%;
+    }
+    .about img{
+        margin-top: 11%;
+        width: 800px;
+        padding-left: 10%;
+        height: 510px;
+    }
 }

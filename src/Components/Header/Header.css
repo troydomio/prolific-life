@@ -39,3 +39,33 @@
 .call_action a{
     text-decoration: none;
 }
+
+@media all and (max-width: 1180px){
+    .title_image{
+        display: block;
+        position: relative;
+    }
+    .title_image p{
+        font-size: 100px;
+        margin-left: 25%;
+        margin-top: 30%;
+    }
+    .call_action{
+        width: 100vw;
+        height: 20vh;
+        position: absolute;
+        top: 100%;
+        left: 97%; 
+        padding-top: 8%;
+    }
+    .header img{
+        height: 770px;
+        width: 830px;
+        margin-left: 1vw;
+        margin-top: 13%;
+    }
+    .call_action p {
+        font-size: 60px;
+        color:white;
+    }
+}
