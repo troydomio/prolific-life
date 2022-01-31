@@ -1,0 +1,32 @@
+
+body{
+    background-color: #06102f;
+}
+.about{
+    display: flex;
+    padding-bottom: 8%;
+    background-color: #06102f;
+    color: white;
+    padding-left: 4%;
+    padding-top: 10%;
+
+}
+.about img{
+    margin-top: 11%;
+    width: 665px;
+    height: 510px;
+}
+.about p{
+    width: 36vw;
+    margin-right: 10%;
+    line-height: 30px;
+}
+.about_text{
+    color: white;
+    font-size: 65px;
+    background-color:#06102f; ;
+    padding-top: 5%;
+    padding-bottom: 7.4%;
+    margin-top: 6%;
+    line-height: 55px;
+}

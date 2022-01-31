@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Servicebox = ({title, desc, time, price, link}) => {
+const Servicebox = ({img,title, desc, time, price, link}) => {
   return(
 <div className='box'>
-    <img src=""/>
-    <h3>{title}</h3>
-    <p>{desc}</p>
-    <p>{time} min</p>
-    <p>${price}</p>
-    <div><a href={link}>Book</a></div>
+    <img src={img}/>
+    <h3 className='titlebox'>{title}</h3>
+    <p className='des'>{desc}</p>
+    <p>{time} minutes</p>
+    <p className='up'>${price}</p>
+    <div className='bookbtn'><a href={link} target="_blank">Book</a></div>
 </div>
   ) 
 };

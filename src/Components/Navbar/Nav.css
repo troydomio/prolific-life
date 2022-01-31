@@ -4,16 +4,26 @@
     display: flex;
     background-color: #06102f;
     width: 100vw;
-    height: 7vh;
-}
-.logo{
-    background-color: #1b1e61;
-    border-radius: 40%;
+    height: 14vh;
+    /* border:1px white solid; */
+    padding-left: 2%;
+    padding-top: 2%;
 }
 .nav a{
     text-decoration: none;
     color: white;
+    padding-left: 3%;
+   font-size: 20px;
+   padding-top: 5vh;
+
 }
 .book_btn{
     background-color: #1b1e61;
+    width: 16vw;
+    height: 4vh;
+    margin-left: 31vw;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    margin-top: 2vh;
+
 }

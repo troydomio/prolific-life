@@ -1,0 +1,38 @@
+.reviews{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+   height: 50vh;
+   /* border:1px white solid; */
+
+}
+.reviews div{
+    margin-left: 5%;
+
+}
+.card{
+    /* border: white 1px solid; */
+    width: 23vw;
+    height: 50vh;
+    padding-top: 6%;
+    padding-bottom: 20%;
+}
+.card img{
+    width: 230px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow:4px 3px 10px #0a0b0e;  
+}
+.title{
+    font-size: 37px;
+    color: white;
+    margin-left: 63vh;
+    padding-bottom: 5%;
+}
+.card h3{
+    height: 60px;
+    font-size: 25px;
+}
+
