@@ -11,12 +11,12 @@ function App() {
   return (
     <div>
      <Nav/>
-     <Header/>
-     <Services/>
+     {/* <Header/> */}
+     {/* <Services/>
      <About/>
      <Testimony/>
      <Work/>
-    <Contact/>
+    <Contact/> */}
     </div>
   );
 }

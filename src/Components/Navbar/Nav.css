@@ -1,41 +1,38 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
 .nav{
-    display: flex;
-    background-color: #06102f;
-    width: 100vw;
-    height: 14vh;
-    padding-left: 2%;
-    padding-top: 2%;
+ margin-left: 8%;
+}
+/* TITLE */
+.nav div{
+color: white;
+font-size: 50px;
+margin-top: 6%;
+font-family: 'Bodoni Moda';
+}
+/* BUTTON */
+.nav a{
+  background-color: #1b1e61;
+  font-size: 25px;
+ color: white;
+ text-decoration: none;
+ margin-top: 6%;
+ margin-left: 11%;
+ border-radius: 5%;
+}
+
+@media (min-width:1025px){
+.nav{
+  display: flex;
+  margin-left: 28%;
+}
+.nav div{
+  font-size: 70px;
 }
 .nav a{
-    text-decoration: none;
-    color: white;
-    padding-left: 3%;
-   font-size: 20px;
-   padding-top: 5vh;
-
+  font-size: 12px;
+  height: 23px;
+  padding-bottom: 4%;
+  margin-right: 11%;
 }
-.book_btn{
-    background-color: #1b1e61;
-    width: 16vw;
-    height: 4vh;
-    margin-left: 31vw;
-    padding-bottom: 4%;
-    padding-top: 2%;
-    margin-top: 2vh;
-}
-
-@media all and (max-width: 1180px){
-    .nav a{
-        font-size: 45px;
-        padding-left: 5%;
-    }
-    .book_btn{
-        width: 600px;
-        padding-left: 7%;
-        padding-right: 7%;
-        height: 15vh;
-        margin-left: 25vw;
-    }
 }
