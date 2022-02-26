@@ -16,15 +16,15 @@ font-family: 'Bodoni Moda';
 /* BUTTON */
 .nav a{
   position: fixed;
+  top: 0%;
   left: 50%;
-  top: 0;
+  width: 500px;
+
   transform: translateX(-50%);
   background-color: #1b1e61;
   font-size: 25px;
  color: white;
  text-decoration: none;
- /* margin-top: 6%;
- margin-left: 11%; */
  padding:1.1%;
 }
 
