@@ -1,20 +1,21 @@
-
 body{
     background-color: #06102f;
 }
 .contact{
-    display: flex;
-    padding-bottom: 8%;
+    display: inline;
+    padding-bottom: 11%;
     background-color: #06102f;
     color: white;
     padding-left: 4%;
+    height: 500px;
 }
 .contact img{
-    width: 665px;
-    height: 510px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 55%;
 }
 .contact p{
-    width: 36vw;
+    width: 86vw;
     margin-right: 10%;
     line-height: 30px;
     margin-left: 5%;
@@ -31,10 +32,11 @@ body{
 .contactbtn{
     background-color: #1b1e61;
     box-shadow:4px 3px 10px #0a0b0e;  
-    width: 10vw;
+    width: 23vw;
     height: 8vh;
     margin-left: 2vw;
     padding-bottom: 4%;
+    margin-bottom: 5%;
     padding-left: 4%;
     padding-top: 2%;
     margin-top: 2vh;
@@ -43,38 +45,87 @@ body{
     text-decoration: none;
     color: white;
 }
-@media all and (max-width: 1180px){
-    .headercontact{
-    font-size: 65px;
-    padding-top: 5%;
-    padding-bottom: 8%;
-    margin-top: 1%;
-    line-height: 55px;
-    }
-    .contact p{
-        width: 106vw;
-        margin-right: 10%;
-        font-size: 40px;
-        line-height: 70px;
-        margin-left: 5%;
+
+
+@media (min-width:1025px){
+    body{
+        background-color: #06102f;
     }
     .contact{
         display: flex;
-        width: 100vw;
         padding-bottom: 8%;
+        background-color: #06102f;
+        color: white;
         padding-left: 4%;
     }
     .contact img{
-        width: 630px;
-        height: 600px;
+        width: 665px;
+        height: 510px;
+    }
+    .contact p{
+        width: 36vw;
+        margin-right: 10%;
+        line-height: 30px;
+        margin-left: 5%;
+    }
+    .headercontact{
+        color: white;
+        font-size: 65px;
+        background-color:#06102f; ;
+        padding-top: 5%;
+        padding-bottom: 8%;
+        margin-top: 6%;
+        line-height: 55px;
     }
     .contactbtn{
-        width: 80vw;
-        height: 10vh;
+        background-color: #1b1e61;
+        box-shadow:4px 3px 10px #0a0b0e;  
+        width: 10vw;
+        height: 8vh;
         margin-left: 2vw;
         padding-bottom: 4%;
-        padding-left: 15%;
+        padding-left: 4%;
         padding-top: 2%;
-        margin-top: 1vh;
+        margin-top: 2vh;
+    }
+    .contactbtn{
+        text-decoration: none;
+        color: white;
+    }
+    @media all and (max-width: 1180px){
+        .headercontact{
+        font-size: 65px;
+        padding-top: 5%;
+        padding-bottom: 8%;
+        margin-top: 1%;
+        line-height: 55px;
+        }
+        .contact p{
+            width: 106vw;
+            margin-right: 10%;
+            font-size: 40px;
+            line-height: 70px;
+            margin-left: 5%;
+        }
+        .contact{
+            display: flex;
+            width: 100vw;
+            padding-bottom: 8%;
+            padding-left: 4%;
+        }
+        .contact img{
+            width: 630px;
+            height: 600px;
+        }
+        .contactbtn{
+            width: 80vw;
+            height: 10vh;
+            margin-left: 2vw;
+            padding-bottom: 4%;
+            padding-left: 15%;
+            padding-top: 2%;
+            margin-top: 1vh;
+        }
     }
 }
+

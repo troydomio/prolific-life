@@ -1,5 +1,6 @@
+
 .reviews{
-    display: flex;
+    display: inline;
     color: white;
     text-align: center;
     padding-left: 5%;
@@ -9,8 +10,8 @@
 
 }
 .reviews div{
-    margin-left: 5%;
-
+    margin-left: 15%;
+    width: 50vw;
 }
 .card{
     /* border: white 1px solid; */
@@ -22,7 +23,46 @@
 .card img{
     width: 230px;
     height: 200px;
-    border-radius: 50%;
+    box-shadow:4px 3px 10px #0a0b0e;  
+}
+.title{
+    font-size: 37px;
+    color: white;
+    padding-bottom: 5%;
+    margin-top: 15%;
+}
+.card h3{
+    height: 60px;
+    font-size: 25px;
+}
+
+@media (min-width:1025px){
+
+.reviews{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+   height: 50vh;
+  margin-bottom: 11%;
+   /* border:1px white solid; */
+
+}
+.reviews div{
+    margin-left: 5%;
+    width: 270px;
+}
+.card{
+    /* border: white 1px solid; */
+    width: 23vw;
+    height: 50vh;
+    padding-top: 6%;
+    padding-bottom: 20%;
+}
+.card img{
+    width: 230px;
+    height: 200px;
     box-shadow:4px 3px 10px #0a0b0e;  
 }
 .title{
@@ -35,22 +75,4 @@
     height: 60px;
     font-size: 25px;
 }
-@media all and (max-width: 1180px){
-    .title{
-        font-size: 67px;
-        color: white;
-        margin-left: 8vh;
-        margin-top: 47%;
-        padding-bottom: 5%;
-    }
-    .card{
-        /* border: white 1px solid; */
-        width: 73vw;
-        font-size: 25px;
-    }
-    .card h3{
-        height: 140px;
-        font-size: 40px;
-    }
 }
-

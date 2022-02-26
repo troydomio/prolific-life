@@ -1,0 +1,21 @@
+.parall{
+    background-image: url("https://live.staticflickr.com/65535/51904651939_5e8ed84b7e_b.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  width: 100vw;
+  height: 220px
+}
+
+@media (min-width:1025px){
+    .parall{
+        background-image: url("https://live.staticflickr.com/65535/51904651939_5e8ed84b7e_b.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: 700px
+    }
+}

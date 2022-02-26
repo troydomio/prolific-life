@@ -6,6 +6,7 @@ import Testimony from './Testimony/Testimony';
 import About from './About/About';
 import Work from './Worksamples/Work';
 import Contact from './Contact/contact';
+import Parallax from './Parallax/Parallax'
 
 function App() {
   return (
@@ -13,10 +14,12 @@ function App() {
      <Nav/>
      <Header/>
       <Services/> 
-     {/* <About/>
+      <Parallax/>
+      <About/>
+      <Work/>
      <Testimony/>
-     <Work/>
-    <Contact/>  */}
+    
+    <Contact/>  
     </div>
   );
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
  .header{
-     margin-top: 18%;
+     margin-top: 28%;
     background-color: #06102f;
     color: white;
     height: 45vh;
@@ -31,16 +31,16 @@
         display: flex;
    }
    .header img{
-    height: 400px;
-    width: 530px;
-    margin-top: 4%;
-    margin-left: 25%;
+    height: 430px;
+    width: 585px;
+    margin-top: 1%;
+    margin-left: 17%;
 }
 .headertitle h4{
-    font-size: 45px;
+    font-size: 51px;
     width:350px;
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 6%;
 }
 .headertitle p{
     line-height: 50px;

@@ -5,9 +5,16 @@ const Work = () => {
     <>
     <h3 className='worktitle'>Work Samples</h3>
       <div className='imglibrary'>
-        <img src="https://ath2.unileverservices.com/wp-content/uploads/sites/3/2019/06/iStock-960212544-1024x773.jpg"/>
-        <img src="https://media.istockphoto.com/photos/black-woman-with-long-luxurious-shiny-hair-picture-id1074983790?b=1&k=20&m=1074983790&s=170667a&w=0&h=aKUMHQXxmVo4F6XyKH8Bj_bfygF8qiPrL1Cc47fxyDU="/>
-        <img src="https://ath2.unileverservices.com/wp-content/uploads/sites/3/2018/03/short-black-hair-wispy-pixie-min.jpg"/>
+        <img src="https://live.staticflickr.com/65535/51904415948_b816f7516d_b.jpg"/>
+        <img src="https://live.staticflickr.com/65535/51904415953_5dff5a327d_b.jpg"/>
+        <img src="https://live.staticflickr.com/65535/51904540313_5a997967a1_b.jpg"/>
+        <img src="https://live.staticflickr.com/65535/51903485117_0fcfe256b6_b.jpg"/>
+        <img src="https://live.staticflickr.com/65535/51904540338_e6f12be22c_b.jpg"/>
+        <img src="https://live.staticflickr.com/65535/51904970920_c3be0fbcbd_b.jpg"/>
+        <img src="https://live.staticflickr.com/65535/51905094440_51d855a052_b.jpg"/>
+        <img src="https://live.staticflickr.com/65535/51904651969_01c4a6ae94_b.jpg"/>
+
+
       </div>
     </>
   ) 
