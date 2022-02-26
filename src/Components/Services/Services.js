@@ -1,33 +1,20 @@
 import React, {useState} from 'react';
 import './Services.css';
-import One from './One';
-import Two from './Two';
-import Three from './Three';
-import Four from './Four';
-import Five from './Five';
-import Six from './Six';
+import Servicebox from './Servicebox';
+
 
 const Services = () => {
- const [active, setActive] = useState("first")
+
 
   return(
     <div className='service'>
-    <h1 id="faq-1">Services</h1>
-    <div className='category'>
-    <p className='one' onClick={()=> setActive("first")} >Shampoo & Style</p>
-    <p className='two' onClick={()=> setActive("second")} >Color </p>
-    <p className='three' onClick={()=> setActive("third")} >Extensions</p>
-    <p className='four' onClick={()=> setActive("fourth")} >Treatments</p>
-    <p className='five' onClick={()=> setActive("fifth")} >Relaxers</p>
-    <p className='six' onClick={()=> setActive("sixth")} >Cuts</p>
-    </div>
-      {active === "first" && <One/> }
-      {active === "second" && <Two/> }
-      {active === "third" && <Three/> }
-      {active === "fourth" && <Four/> }
-      {active === "fifth" && <Five/> }
-      {active === "sixth" && <Six/> }
-
+    
+   <Servicebox title="Natural Hair"  link="https://www.schedulicity.com/scheduling/BSSED9/services" img="https://www.cossma.com/typo3temp/pics/sh_720115021_afc543b2bc.jpg"/>
+   <Servicebox title="Hair Extensions"  link="https://www.schedulicity.com/scheduling/BSSED9/services" img="https://www.cossma.com/typo3temp/pics/sh_720115021_afc543b2bc.jpg"/>
+   <Servicebox title="Hair Cut Services"  link="https://www.schedulicity.com/scheduling/BSSED9/services" img="https://www.cossma.com/typo3temp/pics/sh_720115021_afc543b2bc.jpg"/>
+   <Servicebox title="Color Services"  link="https://www.schedulicity.com/scheduling/BSSED9/services" img="https://www.cossma.com/typo3temp/pics/sh_720115021_afc543b2bc.jpg"/>
+   <Servicebox title="Relaxer Treatments"  link="https://www.schedulicity.com/scheduling/BSSED9/services" img="https://www.cossma.com/typo3temp/pics/sh_720115021_afc543b2bc.jpg"/>
+   <Servicebox title="Shampoo & Style"  link="https://www.schedulicity.com/scheduling/BSSED9/services" img="https://www.cossma.com/typo3temp/pics/sh_720115021_afc543b2bc.jpg"/>
     
     </div>
   ) 

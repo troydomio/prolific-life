@@ -1,110 +1,43 @@
+.service{
+    /* border: 1px white solid; */
+    height: 500vh;
 
- .service{
-     background-color: #06102f;
-     color: white;
-     padding-top: 7%;
-     /* border:1px white solid; */
-}
-.service h1{ 
- font-size: 43px;
- padding-left: 45%;
- padding-top: 11%;
- padding-bottom: 2%;
-}
-.service_body{
- display: inline-flex;
- overflow: hidden;
- width: 100vw;
-    background-color: #06102f;
-    color:white;
-    padding-top: 5%;
-    /* border:1px white solid; */
-}
-.category{
-    display: flex;
-    font-size: 20px;
-    /* border:1px white solid; */
-}
-.category p{
-    margin-left: 2%;
-    padding: 4%;
-    font-size: 22px;
-    text-align: center;
+    
 }
 .box{
-    background-color: #1b1e61;
-    border-radius: 10%; 
-    width: 20vw;
-    height: 70vh; 
-    margin-left: 4%;
-}
-.box p, h3, a{
-    padding-left: 6%;
-    padding-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;  
-}
-.bookbtn{
-    padding-top: 15%;
-    width: 900px;
-}
-.bookbtn a{
-    text-decoration: none;
-    color: white;
-    border: 1px solid #323686;
-    background-color:#323686;
-    box-shadow:6px 6px 10px #121430;  
-    border-radius: 3%; 
-}
-.up{
-    font-size: 24px;
-}
-.titlebox{
-    height: 60px;
-}
-.des{
-    height: 70px;
+    display: flex;
+    border: 1px white solid;
+    width: 100vw;
+    height: 250px;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .box img{
-    width: 20vw;
-    height: 30vh;
-    border-radius: 4%; 
+    width: 220px;
+    height: 250px;
 }
-.one, .two, .three, .four, .five,.six{
-    background-color:#323686 ;
-    box-shadow:6px 6px 10px #1d2050;  
-    border-radius: 30%;
-    width: 14%;
-    margin-top: 2%;
+.titlebox{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30%;
+    margin-left: 10%;
 }
-.one, .two, .three, p{
-    padding-left: 1%;
+.bookbtn{
+     border: 1px solid #323686;
+    background-color:#323686;
+    box-shadow:6px 6px 10px #121430;  
+    width: 120px;
+    height: 55px;
+    margin-left: 22%;
+    margin-top: 10%;
 }
 
-@media all and (max-width: 1180px){
-    .service h1{
-    font-size: 76px;
-    padding-left: 29%;
-    padding-top: 160%;
-    }
-    .one, .two, .three, .four, .five,.six{
-        width: 270vw;
-     }
-    .service_body{
-        display: flex;
-      overflow: scroll;
-        width: 270vw;
-           background-color: #06102f;
-           color:white;
-       }
-       .box{
-        width: 80vw;
-        height: 69vh; 
-        margin-left: 1%;
-    }
-    .box img{
-        width: 70vw;
-        height: 30vh;
-        border-radius: 4%; 
-    }
+
+.bookbtn a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25%;
+    font-size: 35px;
+    
 }

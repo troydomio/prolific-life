@@ -1,16 +1,54 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
-.header{
+ .header{
+     margin-top: 18%;
     background-color: #06102f;
     color: white;
-    height: 80vh;
-}
-.header img{
-    height: 470px;
-    width: 630px;
+    height: 60vh;
     margin-left: 10vw;
-    margin-top: 13%;
+    /* border: 1px white solid; */
+
 }
+
+.header img{
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.headertitle{
+    font-size: 15px;
+    text-align: center;
+}
+.headertitle h4{
+    font-family: 'Bodoni Moda';
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+@media (min-width:1025px){
+    .header{
+        margin-top: 7%;
+        display: flex;
+   }
+   .header img{
+    height: 400px;
+    width: 530px;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+.headertitle h4{
+    font-size: 45px;
+    width:350px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.headertitle p{
+    line-height: 50px;
+}
+}
+/*
 .title_image{
     display: flex;
     position: relative;
