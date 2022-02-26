@@ -46,6 +46,55 @@
     text-align: center;
 }
 
+@media (min-width:320px){
+    .service{
+        height: 214vh; 
+        display: inline;  
+       
+    }
+    .box{
+        display: flex;
+        border: 1px white solid;
+        width: 100vw;
+        height: 250px;
+        background-color: white;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .box img{
+        width: 220px;
+        height: 250px;
+    }
+    .titlebox{
+        text-align: center;
+        font-size: 27px;
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+    .bookbtn{
+         border: 1px solid #323686;
+        background-color:#323686;
+        box-shadow:6px 6px 10px #121430;  
+        width: 117px;
+        height: 55px;
+        margin-left: 17%;
+        margin-top: 10%;
+    }
+    .bookbtn a{
+        color: white;
+        text-decoration: none;
+        margin-left: 25%;
+        font-size: 35px;
+    }
+    .title{
+        color: white;
+        font-family: 'Bodoni Moda';
+        padding-top: 25%; 
+        font-size: 33px;
+        text-align: center;
+    }
+}
+
 @media (min-width:1025px){
     .service{     
     height: 100vh; 
