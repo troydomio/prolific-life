@@ -26,6 +26,35 @@
     line-height: 55px;
 }
 
+@media (min-width:320px){
+    .about{
+        padding-bottom: 8%;
+        background-color: #06102f;
+        color: white;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 10%;
+        text-align: left;
+    }
+    .about img{
+        margin-top: 11%;
+        width: 90vw;
+        height: 510px;
+    }
+    .about p{
+        line-height: 30px;
+    }
+    .about_text{
+        color: white;
+        font-size: 65px;
+        background-color:#06102f; ;
+        padding-top: 5%;
+        padding-bottom: 7.4%;
+        margin-top: 6%;
+        line-height: 55px;
+    }
+}
+
 @media (min-width:1025px){
 body{
     background-color: #06102f;
@@ -56,5 +85,6 @@ body{
     padding-bottom: 7.4%;
     margin-top: 6%;
     line-height: 55px;
+    
 }
 }

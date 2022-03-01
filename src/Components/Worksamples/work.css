@@ -20,7 +20,28 @@
     padding-bottom: 5%;
     padding-top: 10%;
 }
-
+@media (min-width:320px){
+    .imglibrary{
+        display: flex;
+        overflow: scroll;
+       width: 100vw;
+       height: 40vh;
+       padding-left: 2%;
+       padding-right: 2%;
+   }
+   .imglibrary img{
+       width: 320px;
+       height: 320px;
+       margin-left: 5%;
+       box-shadow:10px 10px 10px #0a0b0e;   
+   }
+   .worktitle{
+       font-size: 37px;
+       color: white;
+       padding-bottom: 5%;
+       padding-top: 10%;
+   }
+}
 @media (min-width:1025px){
 .imglibrary{
     display: flex;

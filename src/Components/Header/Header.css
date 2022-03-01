@@ -54,8 +54,9 @@
 }
 @media (min-width:1025px){
     .header{
-        margin-top: 7%;
+        margin-top: 13%;
         display: flex;
+        /* border: white 1px solid; */
    }
    .header img{
     height: 430px;
