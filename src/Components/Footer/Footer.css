@@ -1,0 +1,26 @@
+
+.footer{
+    padding-top: 5%;
+}
+.footer-text{
+    float: right;
+    padding-right: 40%;
+    padding-bottom: 2%;
+    color: grey;
+}
+.footer-text a{
+    color: rgb(168, 164, 164);
+}
+
+/* @media (min-width:320px){
+    .footer{
+        padding-top: 5%;
+    }
+    .footer-text{
+       
+        color: grey;
+    }
+    .footer-text a{
+        color: rgb(168, 164, 164);
+    }
+} */

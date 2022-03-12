@@ -7,6 +7,7 @@ import About from './About/About';
 import Work from './Worksamples/Work';
 import Contact from './Contact/contact';
 import Parallax from './Parallax/Parallax'
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
      <Testimony/>
     
     <Contact/>  
+    <Footer/>
     </div>
   );
 }

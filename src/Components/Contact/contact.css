@@ -46,6 +46,17 @@ body{
     color: white;
 }
 
+@media (min-width:320px){
+    .contactbtn{
+        width: 35vw;
+        height: 5vh;
+        margin-left: 2vw;
+        padding-bottom: 4%;
+        padding-left: 9%;
+        padding-top: 2%;
+        margin-top: 1vh;
+    }
+}
 
 @media (min-width:1025px){
     body{
@@ -92,7 +103,7 @@ body{
         text-decoration: none;
         color: white;
     }
-    @media all and (max-width: 1180px){
+    /* @media all and (max-width: 1180px){
         .headercontact{
         font-size: 65px;
         padding-top: 5%;
@@ -126,6 +137,7 @@ body{
             padding-top: 2%;
             margin-top: 1vh;
         }
-    }
+    } */
 }
+
 

@@ -12,7 +12,7 @@ const contact = () => {
       <span><p> 214-315-4477</p></span>
     <span ><a href="https://www.schedulicity.com/scheduling/BSSED9/services" target="_blank"><div className='contactbtn'>Book Now</div></a></span>
      </p>
-      <img src="https://lh5.googleusercontent.com/p/AF1QipM17WtSfWfBvCB9uZwH1OVs3Ed2sWtJ3WC-VZLy=w1080-k-no" alt="image of hair salon"/>
+      <img src="https://live.staticflickr.com/65535/51934169826_fb33cb7228_b.jpg" alt="image of hair salon"/>
     </div>
 </div>
   ) 

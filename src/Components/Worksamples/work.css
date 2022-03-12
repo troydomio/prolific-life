@@ -10,9 +10,7 @@
 .imglibrary img{
     width: 320px;
     height: 320px;
-    margin-left: 5%;
-    box-shadow:10px 10px 10px #0a0b0e;  
-    
+    margin-left: 5%;    
 }
 .worktitle{
     font-size: 37px;
@@ -33,7 +31,6 @@
        width: 320px;
        height: 320px;
        margin-left: 5%;
-       box-shadow:10px 10px 10px #0a0b0e;   
    }
    .worktitle{
        font-size: 37px;
@@ -55,7 +52,6 @@
     width: 320px;
     height: 320px;
     margin-left: 5%;
-    box-shadow:10px 10px 10px #0a0b0e;  
     flex: 1 0 21%; 
     margin: 7px;
     height: 250px;

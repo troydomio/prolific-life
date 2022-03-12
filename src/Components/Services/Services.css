@@ -52,7 +52,6 @@
     }
     .box{
         display: flex;
-        border: 1px white solid;
         width: 100vw;
         height: 250px;
         background-color: white;
@@ -61,7 +60,7 @@
     }
     .box img{
         width: 220px;
-        height: 250px;
+        height: 240px;
     }
     .titlebox{
         text-align: center;
@@ -84,6 +83,11 @@
         margin-left: 25%;
         font-size: 35px;
     }
+    .bookbtn:hover{
+       
+    background-color: #232770;
+          
+    }
     .title{
         color: white;
         font-family: 'Bodoni Moda';
@@ -102,12 +106,17 @@
     .flexme{
         display: flex;
         flex-wrap: wrap;
+        height: 100vh;
     }
     .box{
         flex: 1 0 21%; 
         margin: 7px;
         height: 250px;
         margin-top: 5%;
+    }
+    .box img{
+        width: 240px;
+        height: 245px;
     }
     .title{
         color: white;

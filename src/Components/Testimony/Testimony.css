@@ -23,7 +23,6 @@
 .card img{
     width: 230px;
     height: 200px;
-    box-shadow:4px 3px 10px #0a0b0e;  
 }
 .title{
     font-size: 37px;
@@ -36,8 +35,22 @@
     font-size: 25px;
 }
 
-@media (min-width:1025px){
+@media (min-width:320px){
+    .card img{
+        width: 300px;
+        height: 300px;
+    }
+   
+    .reviews div{
+        margin-left: 10%;
+        width: 270px;
+    }
+    .card{
+        margin-bottom: 30%;
+    }
+}
 
+@media (min-width:1025px){
 .reviews{
     display: flex;
     color: white;
@@ -45,25 +58,24 @@
     padding-left: 5%;
     padding-right: 5%;
    height: 50vh;
-  margin-bottom: 11%;
+  margin-bottom: 21%;
    /* border:1px white solid; */
 
 }
 .reviews div{
     margin-left: 5%;
-    width: 270px;
+    width: 470px;
 }
 .card{
     /* border: white 1px solid; */
-    width: 23vw;
+    width: 30vw;
     height: 50vh;
     padding-top: 6%;
     padding-bottom: 20%;
 }
 .card img{
-    width: 230px;
-    height: 200px;
-    box-shadow:4px 3px 10px #0a0b0e;  
+    width: 300px;
+    height: 300px;
 }
 .title{
     font-size: 37px;
