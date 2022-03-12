@@ -56,6 +56,12 @@ body{
         padding-top: 2%;
         margin-top: 1vh;
     }
+    .contact p{
+        padding-bottom: 7%;
+    }
+    .contact img{
+        width: 100vw;
+    }
 }
 
 @media (min-width:1025px){

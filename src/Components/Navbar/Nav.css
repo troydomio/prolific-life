@@ -46,6 +46,7 @@ font-family: 'Bodoni Moda';
    .title{
      /* display: none; */
     
+
    }
    /* BUTTON */
    .nav a{
@@ -54,11 +55,12 @@ font-family: 'Bodoni Moda';
      left: 50%;
      width: 500px;
      transform: translateX(-50%);
-     background-color: #1b1e61;
-     font-size: 25px;
-    color: white;
+     background-color: #1a1d52;
+     font-size: 20px;
+    color: rgb(133, 128, 128);
     text-decoration: none;
     padding:1.1%;
+    letter-spacing: 5px;
    }
 }
 @media (min-width:1025px){
