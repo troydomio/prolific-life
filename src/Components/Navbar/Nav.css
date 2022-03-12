@@ -37,8 +37,8 @@ font-family: 'Bodoni Moda';
    }
    /* TITLE */
    .nav div{
-   color: white;
-   font-size: 45px;
+   color: rgb(151, 144, 144);
+   font-size: 15px;
    margin-top: 6%;
    margin-left: 4%;
    font-family: 'Bodoni Moda';
@@ -46,7 +46,6 @@ font-family: 'Bodoni Moda';
    .title{
      /* display: none; */
     
-
    }
    /* BUTTON */
    .nav a{
