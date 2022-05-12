@@ -65,14 +65,14 @@
 }
 .reviews div{
     margin-left: 5%;
-    width: 470px;
+    width: 270px;
 }
 .card{
     /* border: white 1px solid; */
     width: 30vw;
     height: 50vh;
-    padding-top: 6%;
-    padding-bottom: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .card img{
     width: 300px;
